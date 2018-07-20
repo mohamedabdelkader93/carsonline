@@ -1,0 +1,320 @@
+﻿{
+    "books": [{
+            "id": 1,
+            "ISBN": "12345",
+            "title": "Then She Was Gone",
+            "subTitle": "Kindle Edition",
+            "description": "en years on, Laurel has never given up hope of finding Ellie. And then she meets a charming and charismatic stranger who sweeps her off her feet. But what really takes her breath away is when she meets his nine-year-old daughter. Because his daughter is the image of Ellie. Now all those unanswered questions that have haunted Laurel come flooding back.",
+            "featuredImage": "../assets/images/book-image.jpg",
+            "images": [
+                "../assets/images/book-image.jpg",
+                "../assets/images/book-image.jpg"
+            ],
+            "categories": [{
+                    "id": 1,
+                    "name": "Agriculture"
+                },
+                {
+                    "id": 2,
+                    "name": "Fine arts and Agriculture"
+                }
+            ],
+            "author": "lisa jewell",
+            "publisher": "publisher name",
+            "suppliers": [
+                "Crime Thrillers"
+            ],
+            "publicationDate": "3/3/2018",
+            "edition": "Kindle Edition",
+            "numberOfPages": 422,
+            "price": 224,
+            "weight": "20 gm",
+            "noOfVolumes": 1,
+            "bookType": "novel",
+            "featured": true,
+            "rate": 2
+        },
+        {
+            "id": 2,
+            "ISBN": "12345",
+            "title": "Then She Was Gone",
+            "subTitle": "Kindle Edition",
+            "description": "en years on, Laurel has never given up hope of finding Ellie. And then she meets a charming and charismatic stranger who sweeps her off her feet. But what really takes her breath away is when she meets his nine-year-old daughter. Because his daughter is the image of Ellie. Now all those unanswered questions that have haunted Laurel come flooding back.",
+            "featuredImage": "../assets/images/book-image.jpg",
+            "images": [
+                "../assets/images/book-image.jpg",
+                "../assets/images/book-image.jpg"
+            ],
+            "categories": [{
+                    "id": 1,
+                    "name": "Agriculture"
+                },
+                {
+                    "id": 2,
+                    "name": "Fine arts and Agriculture"
+                }
+            ],
+            "author": "lisa jewell",
+            "publisher": "publisher name",
+            "suppliers": [
+                "Crime Thrillers"
+            ],
+            "publicationDate": "3/3/2018",
+            "edition": "Kindle Edition",
+            "numberOfPages": 422,
+            "price": 224,
+            "weight": "20 gm",
+            "noOfVolumes": 1,
+            "bookType": "novel",
+            "featured": true,
+            "rate": 5
+        },
+        {
+            "id": 3,
+            "ISBN": "12345",
+            "title": "Then She Was Gone",
+            "subTitle": "Kindle Edition",
+            "description": "en years on, Laurel has never given up hope of finding Ellie. And then she meets a charming and charismatic stranger who sweeps her off her feet. But what really takes her breath away is when she meets his nine-year-old daughter. Because his daughter is the image of Ellie. Now all those unanswered questions that have haunted Laurel come flooding back.",
+            "featuredImage": "../assets/images/book-image.jpg",
+            "images": [
+                "../assets/images/book-image.jpg",
+                "../assets/images/book-image.jpg"
+            ],
+            "categories": [{
+                    "id": 1,
+                    "name": "Agriculture"
+                },
+                {
+                    "id": 2,
+                    "name": "Fine arts and Agriculture"
+                }
+            ],
+            "author": "lisa jewell",
+            "publisher": "publisher name",
+            "suppliers": [
+                "Crime Thrillers"
+            ],
+            "publicationDate": "3/3/2018",
+            "edition": "Kindle Edition",
+            "numberOfPages": 422,
+            "price": 224,
+            "weight": "20 gm",
+            "noOfVolumes": 1,
+            "bookType": "novel",
+            "featured": true,
+            "rate": 1
+        },
+        {
+            "id": 4,
+            "ISBN": "12345",
+            "title": "Then She Was Gone",
+            "subTitle": "Kindle Edition",
+            "description": "en years on, Laurel has never given up hope of finding Ellie. And then she meets a charming and charismatic stranger who sweeps her off her feet. But what really takes her breath away is when she meets his nine-year-old daughter. Because his daughter is the image of Ellie. Now all those unanswered questions that have haunted Laurel come flooding back.",
+            "featuredImage": "../assets/images/book-image.jpg",
+            "images": [
+                "../assets/images/book-image.jpg",
+                "../assets/images/book-image.jpg"
+            ],
+            "categories": [{
+                    "id": 1,
+                    "name": "Agriculture"
+                },
+                {
+                    "id": 2,
+                    "name": "Fine arts and Agriculture"
+                }
+            ],
+            "author": "lisa jewell",
+            "publisher": "publisher name",
+            "suppliers": [
+                "Crime Thrillers"
+            ],
+            "publicationDate": "3/3/2018",
+            "edition": "Kindle Edition",
+            "numberOfPages": 422,
+            "price": 224,
+            "weight": "20 gm",
+            "noOfVolumes": 1,
+            "bookType": "novel",
+            "featured": false,
+            "rate": 5
+        },
+        {
+            "id": 5,
+            "ISBN": "12345",
+            "title": "Then She Was Gone",
+            "subTitle": "Kindle Edition",
+            "description": "en years on, Laurel has never given up hope of finding Ellie. And then she meets a charming and charismatic stranger who sweeps her off her feet. But what really takes her breath away is when she meets his nine-year-old daughter. Because his daughter is the image of Ellie. Now all those unanswered questions that have haunted Laurel come flooding back.",
+            "featuredImage": "../assets/images/book-image.jpg",
+            "images": [
+                "../assets/images/book-image.jpg",
+                "../assets/images/book-image.jpg"
+            ],
+            "categories": [{
+                    "id": 1,
+                    "name": "Agriculture"
+                },
+                {
+                    "id": 2,
+                    "name": "Fine arts and Agriculture"
+                }
+            ],
+            "author": "lisa jewell",
+            "publisher": "publisher name",
+            "suppliers": [
+                "Crime Thrillers"
+            ],
+            "publicationDate": "3/3/2018",
+            "edition": "Kindle Edition",
+            "numberOfPages": 422,
+            "price": 224,
+            "weight": "20 gm",
+            "noOfVolumes": 1,
+            "bookType": "novel",
+            "featured": false,
+            "rate": 3.5
+        },
+        {
+            "id": 6,
+            "ISBN": "12345",
+            "title": "Then She Was Gone",
+            "subTitle": "Kindle Edition",
+            "description": "en years on, Laurel has never given up hope of finding Ellie. And then she meets a charming and charismatic stranger who sweeps her off her feet. But what really takes her breath away is when she meets his nine-year-old daughter. Because his daughter is the image of Ellie. Now all those unanswered questions that have haunted Laurel come flooding back.",
+            "featuredImage": "../assets/images/book-image.jpg",
+            "images": [
+                "../assets/images/book-image.jpg",
+                "../assets/images/book-image.jpg"
+            ],
+            "categories": [{
+                    "id": 1,
+                    "name": "Agriculture"
+                },
+                {
+                    "id": 2,
+                    "name": "Fine arts and Agriculture"
+                }
+            ],
+            "author": "lisa jewell",
+            "publisher": "publisher name",
+            "suppliers": [
+                "Crime Thrillers"
+            ],
+            "publicationDate": "3/3/2018",
+            "edition": "Kindle Edition",
+            "numberOfPages": 422,
+            "price": 224,
+            "weight": "20 gm",
+            "noOfVolumes": 1,
+            "bookType": "novel",
+            "featured": false,
+            "rate": 2.5
+        },
+        {
+            "id": 7,
+            "ISBN": "12345",
+            "title": "Then She Was Gone",
+            "subTitle": "Kindle Edition",
+            "description": "en years on, Laurel has never given up hope of finding Ellie. And then she meets a charming and charismatic stranger who sweeps her off her feet. But what really takes her breath away is when she meets his nine-year-old daughter. Because his daughter is the image of Ellie. Now all those unanswered questions that have haunted Laurel come flooding back.",
+            "featuredImage": "../assets/images/book-image.jpg",
+            "images": [
+                "../assets/images/book-image.jpg",
+                "../assets/images/book-image.jpg"
+            ],
+            "categories": [{
+                    "id": 1,
+                    "name": "Agriculture"
+                },
+                {
+                    "id": 2,
+                    "name": "Fine arts and Agriculture"
+                }
+            ],
+            "author": "lisa jewell",
+            "publisher": "publisher name",
+            "suppliers": [
+                "Crime Thrillers"
+            ],
+            "publicationDate": "3/3/2018",
+            "edition": "Kindle Edition",
+            "numberOfPages": 422,
+            "price": 224,
+            "weight": "20 gm",
+            "noOfVolumes": 1,
+            "bookType": "novel",
+            "featured": false,
+            "rate": 2
+        },
+        {
+            "id": 8,
+            "ISBN": "12345",
+            "title": "Then She Was Gone",
+            "subTitle": "Kindle Edition",
+            "description": "en years on, Laurel has never given up hope of finding Ellie. And then she meets a charming and charismatic stranger who sweeps her off her feet. But what really takes her breath away is when she meets his nine-year-old daughter. Because his daughter is the image of Ellie. Now all those unanswered questions that have haunted Laurel come flooding back.",
+            "featuredImage": "../assets/images/book-image.jpg",
+            "images": [
+                "../assets/images/book-image.jpg",
+                "../assets/images/book-image.jpg"
+            ],
+            "categories": [{
+                    "id": 1,
+                    "name": "Agriculture"
+                },
+                {
+                    "id": 2,
+                    "name": "Fine arts and Agriculture"
+                }
+            ],
+            "author": "lisa jewell",
+            "publisher": "publisher name",
+            "suppliers": [
+                "Crime Thrillers"
+            ],
+            "publicationDate": "3/3/2018",
+            "edition": "Kindle Edition",
+            "numberOfPages": 422,
+            "price": 224,
+            "weight": "20 gm",
+            "noOfVolumes": 1,
+            "bookType": "novel",
+            "featured": false,
+            "rate": 4
+        }
+    ],
+    "categories": [{
+            "id": 1,
+            "name": "Agriculture"
+        },
+        {
+            "id": 2,
+            "name": "Fine arts and Agriculture"
+        },
+        {
+            "id": 3,
+            "name": "Biology"
+        },
+        {
+            "id": 4,
+            "name": "Chemistry"
+        },
+        {
+            "id": 5,
+            "name": "Business, Finance & Economic"
+        },
+        {
+            "id": 6,
+            "name": "Computer science"
+        },
+        {
+            "id": 7,
+            "name": "Encyclopedia"
+        }
+    ],
+    "comments": [{
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+    }],
+    "profile": {
+        "name": "typicode"
+    }
+}

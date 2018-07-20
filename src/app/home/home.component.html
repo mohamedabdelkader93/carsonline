@@ -1,0 +1,129 @@
+<app-navigation></app-navigation>
+<div class="page-wrapper">
+    <div class="side-menu">
+        <span>
+            <img src="../assets/images/menu-arrows-icon.png" />
+        </span>
+        <ul>
+            <li>
+                <a href="#" class="active">
+                    <i class="fa fa-car"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-list"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-plus-circle"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-cog"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-address-book"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-heart"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 light-gary-bg">
+                    <div class="left-sidebar">
+                        <h5>Filters
+                            <span class="pull-right">Reset</span>
+                        </h5>
+                        <div class="filters-group">
+                            <h6>Condition</h6>
+                            <div class="checkbox-wrapper">
+                                <input id="new" type="checkbox" name="field" value="option">
+                                <label for="new">
+                                    <span>
+                                        <span></span>
+                                    </span>New
+                                </label>
+                            </div>
+                            <div class="checkbox-wrapper">
+                                <input id="used" type="checkbox" name="field" value="option" checked>
+                                <label for="used">
+                                    <span>
+                                        <span></span>
+                                    </span>Used
+                                </label>
+                            </div>
+                            <div class="checkbox-wrapper">
+                                <input id="scrap" type="checkbox" name="field" value="option">
+                                <label for="scrap">
+                                    <span>
+                                        <span></span>
+                                    </span>Scrap
+                                </label>
+                            </div>
+                        </div>
+                        <div class="filters-select-group">
+                            <ngx-select-dropdown [config]="config" [options]="makeOptions" [(value)]="makeModel" [multiple]="true"></ngx-select-dropdown>
+                        </div>
+                        <div class="filters-select-group">
+                            <ngx-select-dropdown [config]="config" [options]="modelOptions" [(value)]="modelModel" [multiple]="true"></ngx-select-dropdown>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="sorting-cont">
+                                <span class="search">
+                                    <i class="fa fa-search"></i>
+                                    <span>216 Vehicles</span>
+                                <button type="button" class="btn" (click)="reloadListing()">Refresh</button>
+                                </span>
+                                <span>
+                                    <ul>
+                                        <li (click)="sort('AuctionInfo.endDateEn')">
+                                            By End Time
+                                        </li>
+                                        <li (click)="sort('AuctionInfo.bids')">
+                                            By Bids
+                                        </li>
+                                        <li (click)="sort('year')">
+                                            By Year
+                                        </li>
+                                        <li (click)="sort('AuctionInfo.currentPrice')">
+                                            By Price
+                                        </li>
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                        <app-listing-card class="col-lg-4 col-md-6 col-sm-12 col-xs-12" *ngFor="let item of Items?.Cars |  sortingDataPipe:path:order" [itemCard]="item"></app-listing-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<app-footer></app-footer>

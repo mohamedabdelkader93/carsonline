@@ -1,0 +1,33 @@
+/* inputs and textarea placeholders */
+
+::placeholder,
+ :placeholder {
+    color: #725346 !important;
+    opacity: 1;
+}
+
+input::-webkit-input-placeholder {
+    color: #725346 !important;
+}
+
+input:-webkit-input-placeholder {
+    color: #725346 !important;
+}
+
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #725346 !important;
+}
+
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #725346 !important;
+}
+
+input:-ms-input-placeholder {
+    color: #725346 !important;
+}
+
+input {
+    color: #725346;
+}

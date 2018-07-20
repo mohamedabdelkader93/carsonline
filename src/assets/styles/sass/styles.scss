@@ -1,0 +1,31 @@
+/*
+  main sass file
+*/
+/* import base */
+
+@import "base/variables.scss";
+@import "base/base.scss";
+@import "base/helpers.scss";
+
+/* import pages */
+
+
+/* import components */
+
+@import "components/form-elements.scss";
+@import "components/navigations.scss";
+@import "components/heros.scss";
+@import "components/slider.scss";
+@import "components/popovers.scss";
+@import "components/tabs.scss";
+@import "components/cards.scss";
+@import "components/footer.scss";
+@import "components/star-rating.scss";
+@import "components/pagination.scss";
+@import "components/filters.scss";
+@import "components/loader.scss";
+
+
+/* import responsive */
+
+@import "responsive/responsive.scss";

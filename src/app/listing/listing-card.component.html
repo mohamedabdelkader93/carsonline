@@ -1,0 +1,25 @@
+<div class="card">
+    <img class="card-img-top" [src]="itemCard.image | replaceHeightAndWidth" alt="{{itemCard.bodyEn}}">
+    <div class="card-body">
+        <h5 class="card-title">{{itemCard.bodyEn}}</h5>
+        <h5 class="price">{{itemCard.AuctionInfo.currentPrice}}
+            <span>{{itemCard.AuctionInfo.currencyEn}}</span>
+        </h5>
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+                <i class="fa fa-cube"></i>
+                <span>{{itemCard.carID}}</span>
+            </li>
+            <li>
+                <i class="fa fa-gavel"></i>
+                <span>{{itemCard.AuctionInfo.bids}}</span>
+            </li>
+            <li>
+                <i class="fa fa-clock-o"></i>
+                <span>{{itemCard.AuctionInfo.endDateEn}}</span>
+            </li>
+        </ul>
+    </div>
+</div>

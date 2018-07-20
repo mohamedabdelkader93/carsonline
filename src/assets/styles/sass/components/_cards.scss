@@ -1,0 +1,99 @@
+.left-sidebar {
+    padding: 25px 5px;
+    >h5 {
+        margin-bottom: 40px;
+        padding: 20px 0 30px 0;
+        border-bottom: 1px solid #ddd;
+        span {
+            color: #fd3c44;
+            font-size: 16px;
+        }
+    }
+    .filters-group {
+        h6 {
+            color: #b8bdc1;
+            margin-bottom: 25px;
+        }
+        .checkbox-wrapper {
+            margin: 10px 0;
+        }
+    }
+    .filters-select-group {
+        margin: 20px 0;
+        button {
+            background-color: transparent !important;
+            padding: 10px 10px 10px 10px !important;
+            border: 1px solid #e6e7e9 !important;
+            span {
+                color: #a4aab0;
+            }
+        }
+    }
+}
+
+.sorting-cont {
+    display: flex;
+    padding: 40px 0 20px 0;
+    .search {
+        color: #c9cacc;
+        i {
+            margin-right: 5px;
+        }
+    }
+    span {
+        &:last-child {
+            margin-left: auto;
+        }
+        ul {
+            li {
+                text-transform: uppercase;
+                display: inline-block;
+                color: #c9cacc;
+                margin: 0 15px;
+                font-weight: bold;
+                cursor: pointer;
+                &:hover {
+                    color: #343434;
+                }
+            }
+        }
+    }
+}
+
+.card {
+    margin-bottom: 15px;
+    .card-body {
+        h5.card-title {
+            color: #535353;
+            margin-bottom: 5px;
+        }
+        h5.price {
+            color: #9ac46e;
+            margin-bottom: 5px;
+            span {
+                font-size: 15px;
+                position: absolute;
+                font-weight: lighter;
+                margin-left: 5px;
+            }
+        }
+    }
+    .card-footer {
+        background-color: transparent;
+        ul {
+            display: flex;
+            margin-bottom: 0;
+            li {
+                display: inline-block;
+                color: #737373;
+                margin-right: 10px;
+                font-weight: bold;
+                font-size: 14px;
+                i {
+                    color: #b8bdc1 !important;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
